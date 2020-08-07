@@ -1,4 +1,4 @@
-describe('Binance Market Tests', () => {
+describe('Market Tests', () => {
     it('Verify_Market_Search_Add_Favorites', () => {
         cy.visit('https://esms.key2act.work/signin')
         cy.xpath(".//span [text() = 'Sign Up']").click()
